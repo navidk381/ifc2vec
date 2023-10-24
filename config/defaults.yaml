@@ -1,0 +1,13 @@
+# the path to the ifcowl file https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL/index.html
+ifc_owl_path: ./ifcttl.owl
+
+# parent class [root node]
+parent_class: IfcProduct
+
+# save ifc2vec dictionary 
+save_ifc2vec_dict: True
+
+#  the path to saved ifc2vec dictionary
+ifc2vec_dict_path: ./ifc2vec_IFC2x3.pkl
+
+

@@ -1,0 +1,29 @@
+#! Deprecated IFC types for IFC2x3 
+# manually added ifc dictionary for deprecated types that were found in the dataset
+# you can add more types here if you found them in your dataset
+DEPRECATED_IFC_TYPES:
+  IfcElectricalElement:             # deprecated ifc type from IFC2x3
+    - IfcDistributionControlElement # parent class 1
+    - IfcDistributionElement        # parent class 2
+    - IfcElement                    # parent class 3
+    - IfcProduct                    # parent class 4
+  IfcElectricalCircuit:
+    - IfcDistributionControlElement
+    - IfcDistributionElement
+    - IfcElement
+    - IfcProduct
+  IfcElectricDistributionPoint:
+    - IfcDistributionControlElement
+    - IfcDistributionElement
+    - IfcElement
+    - IfcProduct
+  IfcElectricHeaterType:
+    - IfcDistributionControlElement
+    - IfcDistributionElement
+    - IfcElement
+    - IfcProduct
+  IfcEquipmentElement:
+    - IfcDistributionControlElement
+    - IfcDistributionElement
+    - IfcElement
+    - IfcProduct
