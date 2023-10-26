@@ -1,7 +1,7 @@
 # Ifc2vec
 
 
-**Ifc2vec** is a simple yet effective technique to convert the Industry Foundation Classes (IFC) hierarchical schema into a vector representation from [Semantic-aware quality assessment of building elements using graph neural networks](https://www.sciencedirect.com/science/article/pii/S092658052300314X). The vector representation can be used to perform similarity search, clustering, and other machine learning tasks. The key in the *ifc2vec* dictionary is the IfcCLass, and the value is the vector representation.
+*Ifc2vec* is a simple yet effective technique to convert the Industry Foundation Classes (IFC) hierarchical schema into a vector representation from our [Semantic-aware quality assessment of building elements using graph neural networks (BIM-GNN)](https://www.sciencedirect.com/science/article/pii/S092658052300314X) paper. This vector representation is an alternative to the one-hot encoding of IfcClasses and can be used to perform similarity search, clustering, and other machine learning tasks. The key in the *ifc2vec* dictionary is the IfcCLass, and the value is the vector representation.
 
 <p align="center">
   <img width="800" src="img/ifc2vec.png">
@@ -20,7 +20,7 @@ We introduce *ifc2vec*, a simple yet effective method to convert an IFC EXPRESS 
 If you use this code, please cite the following paper:
 
 ```
-@article{KAYHANI2023105054,
+@article{KAYHANI2023BIMGNN,
 title = {Semantic-aware quality assessment of building elements using graph neural networks},
 journal = {Automation in Construction},
 volume = {155},
